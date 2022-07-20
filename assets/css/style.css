@@ -14794,7 +14794,7 @@ form.woocommerce-checkout.checkout .col2-set .woocommerce-shipping-fields .wooco
   border-color: #e4e5e7;
   border-style: solid;
   border-width: 1px;
-  color: #565656;
+  color: #ffffff;
   display: inline-block;
   font-size: 1.000em !important;
   line-height: 1;
@@ -18746,7 +18746,7 @@ h3.faq-title {
     bottom: -19px;
     transform: rotate(45deg);
     width: 56px;
-    z-index: 1; }
+    z-index: -1; }
   @media (min-width: 576px) {
     .section-products-with-image .section-header .row {
       flex-direction: column; } }
@@ -18760,7 +18760,7 @@ h3.faq-title {
   margin-bottom: 0.909em; }
 
 .section-products-with-image .description {
-  font-size: 1.000em;
+  font-size: 1.200em;
   line-height: 1.500em;
   color: #555353;
   font-weight: 300;
@@ -24485,7 +24485,7 @@ dl.variation {
     position: relative; }
 
 .products .product-category, .product-loop-categories .product-category {
-  /*background-color: #f9f9f9;*/ }
+  background-color: #f9f9f9; }
   .products .product-category:focus, .products .product-category:hover, .product-loop-categories .product-category:focus, .product-loop-categories .product-category:hover {
     border-color: transparent; }
   .products .product-category a, .product-loop-categories .product-category a {
@@ -26825,4 +26825,19 @@ form.track_order {
     border-bottom: 0px !important;
   }
 
+  .title-bold{
+    font-weight: 700;
+    font-size: 2.75rem;
+  }
+
+  .black-font{
+    color:#000000 !important;
+  }
+
+  .image-left .product-image{
+    left: 5%;
+  }
+  .image-left .product-info{
+    left: 40%
+  }
 
